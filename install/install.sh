@@ -1,6 +1,6 @@
 
 echo config dns
-echo nameserver 114.114.114.114 > /etc/resolv.config
+echo nameserver 114.114.114.114 > /etc/resolv.conf
 
 echo config apt source aliyun
 echo deb http://mirrors.aliyun.com/raspbian/raspbian/ wheezy main non-free contrib > /etc/apt/sources.list
